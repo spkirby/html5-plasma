@@ -1,2 +1,2 @@
-# html5-plasma
-Classic plasma demo effect using an HTML 5 canvas
+# Plasma
+A version of the classic plasma demo effect using JavaScript and an HTML 5 canvas.
