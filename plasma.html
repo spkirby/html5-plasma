@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta property="og:image" content="https://raw.githubusercontent.com/spkirby/html5-plasma/master/thumbnail.jpg" />
+        <title>Plasma</title>
+        <style type="text/css">
+            html {
+                min-height: 100%;
+                position: relative;
+            }
+            
+            body {
+                margin: 0;
+                background: black;
+                text-align: center;
+            }
+
+            #plasma {
+                margin: auto;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+            }
+            
+            #palette {
+                display: none;
+            }
+        </style>
+        <script src="plasma.js"></script>
+    </head>
+    <body onload="Plasma.start()">
+        <canvas id="plasma"></canvas>
+        <canvas id="palette"></canvas>
+    </body>
+</html>
